@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "brackendev 6/12/2019 06:49",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfReadability",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfReadability",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "brackendev 6/29/2019 00:48",
+	"super" : "Object",
+	"category" : "Readability-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Readability",
+	"type" : "normal"
+}
