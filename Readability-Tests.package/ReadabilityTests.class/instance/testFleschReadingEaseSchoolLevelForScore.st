@@ -1,7 +1,5 @@
 tests
 testFleschReadingEaseSchoolLevelForScore
 	self
-		assert:
-			((Readability fleschReadingEaseGradeLevelForScore: randomNumber) className
-				includesSubstring: 'String')
-		equals: true
+		assert: (Readability fleschReadingEaseGradeLevelForScore: 120.2)
+		equals: '5'
