@@ -55,7 +55,6 @@ Readability examples.
 * Robert Gunning for the [Gunning Fog Index](http://en.wikipedia.org/wiki/Gunning_fog_index).
 * [G. Harry McLaughlin](https://ogg.osu.edu/media/documents/health_lit/WRRSMOG_Readability_Formula_G._Harry_McLaughlin__1969_.pdf) for the [SMOG Grade](http://en.wikipedia.org/wiki/SMOG).
 * The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-* [Eliot Miranda](http://www.mirandabanda.org/cogblog/microbio/), the [OpenSmalltalk team](https://github.com/orgs/OpenSmalltalk/people), and [contributors](https://github.com/OpenSmalltalk/opensmalltalk-vm/graphs/contributors) for [OpenSmalltalk](https://github.com/OpenSmalltalk/opensmalltalk-vm) ([Cog](http://www.mirandabanda.org/cogblog/about-cog/)), the cross-platform virtual machine for Squeak, Pharo, Cuis, and Newspeak.
 * [Sven Van Caekenberghe](https://github.com/svenvc) for [Shared Smalltalk Workspaces](http://ws.stfx.eu/), a free web service to share Smalltalk workspaces.
 
 ## Author
