@@ -17,7 +17,7 @@ Readability-Pharo
 
 ## Install
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 Metacello new 
@@ -28,7 +28,7 @@ Metacello new
 
 ## Example Usage
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 GTPlayground openUrl: 'http://ws.stfx.eu/N07H5OFUTG00'.
