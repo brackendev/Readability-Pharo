@@ -23,6 +23,10 @@ In a Playground, evaluate:
 Metacello new 
   repository: 'github://brackendev/Readability-Pharo';
   baseline: 'Readability';
+  onConflict: [ :ex | ex useIncoming ];
+  onUpgrade: [ :ex | ex useIncoming ];
+  onDowngrade: [ :ex | ex useLoaded ];
+  ignoreImage;
   load.
 ```
 
