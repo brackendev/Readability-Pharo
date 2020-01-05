@@ -1,7 +1,7 @@
 Readability-Pharo
 =================
 
-**Metrics to determine readability and comprehension difficulty for contemporary English text.**
+**Determine readability and comprehension difficulty for contemporary English text.**
 
 * [Pharo 7.0](http://pharo.org/) reference platform.
 * Examples and tests included.
