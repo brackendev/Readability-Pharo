@@ -46,9 +46,10 @@ Readability examples.
 
 ## Ports
 
-* [Objective-C](http://brackendev.github.io/Readability-Objective-C/)
-* [Swift](http://brackendev.github.io/Readability-Swift/)
-* [VisualWorks](https://brackendev.github.io/Readability-VisualWorks/)
+* [Objective-C](https://github.com/brackendev/Readability-Objective-C)
+* [Pharo](https://github.com/brackendev/Readability-Pharo)
+* [Swift](https://github.com/brackendev/Readability-Swift)
+* [VisualWorks](https://github.com/brackendev/Readability-VisualWorks)
 
 ## Author
 
