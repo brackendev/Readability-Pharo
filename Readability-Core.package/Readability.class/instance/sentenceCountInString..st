@@ -4,6 +4,6 @@ sentenceCountInString: aString
 	periodValue := Character codePoint: 46.
 	count := aString occurrencesOf: periodValue.
 	lastChar := aString string at: aString size.
-	lastChar value = periodValue
-		ifTrue: [ ^ count ]
-		ifFalse: [ ^ count + 1 ]
+	^ lastChar value = periodValue
+		ifTrue: [ count ]
+		ifFalse: [ count + 1 ]

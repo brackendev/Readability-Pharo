@@ -8,29 +8,38 @@ syllablesInWord: aString
 	exceptionsOne := #('abe' 'ace' 'ade' 'age' 'ale' 'are' 'use' 'ate' 'sense' 'resolve').
 	exceptionsTwo := #('created').
 	lowercaseString := aString asLowercase.
-	replacedString := lowercaseString copyWithRegex: '[^a-z]' matchesReplacedWith: ''.
+	replacedString := lowercaseString
+		copyWithRegex: '[^a-z]'
+		matchesReplacedWith: ''.
 	wordSplit := replacedString allRegexMatches: '[aeiouy]+'.
 	validWordParts := OrderedCollection new: wordSplit size.
 	wordSplit
 		do: [ :each | 
 			each = ''
-				ifFalse: [ validWordParts add: each ] ].
+				ifFalse: [ validWordParts add: each ]
+			].
 	syllables := 0.
 	subsyl
 		do: [ :each | 
 			matchArray := OrderedCollection new: addsyl size.
-			replacedString regex: each matchesCollect: [ :e | matchArray add: e ].
-			syllables := syllables - matchArray size ].
+			replacedString
+				regex: each
+				matchesCollect: [ :e | matchArray add: e ].
+			syllables := syllables - matchArray size
+			].
 	addsyl
 		do: [ :each | 
 			matchArray := OrderedCollection new: addsyl size.
-			replacedString regex: each matchesCollect: [ :e | matchArray add: e ].
-			syllables := syllables + matchArray size ].
+			replacedString
+				regex: each
+				matchesCollect: [ :e | matchArray add: e ].
+			syllables := syllables + matchArray size
+			].
 	(exceptionsOne includes: lowercaseString)
 		ifTrue: [ syllables := syllables - 1 ].
 	(exceptionsTwo includes: lowercaseString)
 		ifTrue: [ syllables := syllables + 1 ].
 	syllables := syllables + validWordParts size.
-	syllables = 0
-		ifTrue: [ ^ 1 ]
-		ifFalse: [ ^ syllables ]
+	^ syllables = 0
+		ifTrue: [ 1 ]
+		ifFalse: [ syllables ]
