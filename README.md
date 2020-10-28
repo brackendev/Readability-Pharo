@@ -44,16 +44,16 @@ GTPlayground openUrl: 'http://ws.stfx.eu/N07H5OFUTG00'.
 Readability examples.
 ```
 
+## TODO
+
+- [ ] Support Pharo 9 (when stable)
+
 ## Ports
 
 * [Objective-C](https://github.com/brackendev/Readability-Objective-C)
 * [Pharo](https://github.com/brackendev/Readability-Pharo)
 * [Swift](https://github.com/brackendev/Readability-Swift)
 * [VisualWorks](https://github.com/brackendev/Readability-VisualWorks)
-
-## TODO
-
-- [ ] Support Pharo 9 (when stable)
 
 ## Author
 
