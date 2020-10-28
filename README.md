@@ -51,6 +51,10 @@ Readability examples.
 * [Swift](https://github.com/brackendev/Readability-Swift)
 * [VisualWorks](https://github.com/brackendev/Readability-VisualWorks)
 
+## TODO
+
+- [ ] Support Pharo 9 (when stable)
+
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
