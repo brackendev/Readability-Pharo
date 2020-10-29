@@ -21,7 +21,7 @@ In a Playground, _Do it_:
 
 ```smalltalk
 Metacello new 
-  repository: 'github://brackendev/Readability-Pharo/src';
+  repository: 'github://brackendev/Readability-Pharo:v1.0.0/src';
   baseline: 'Readability';
   onConflict: [ :ex | ex useIncoming ];
   onUpgrade: [ :ex | ex useIncoming ];
