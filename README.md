@@ -21,7 +21,7 @@ In a Playground, _Do it_:
 
 ```smalltalk
 Metacello new 
-  repository: 'github://brackendev/Readability-Pharo:v1.0.0/src';
+  repository: 'github://brackendev/Readability-Pharo/src';
   baseline: 'Readability';
   load.
 ```
