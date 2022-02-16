@@ -3,7 +3,7 @@ Readability-Pharo
 
 **Determine readability and comprehension difficulty for contemporary English text.**
 
-* [Pharo 8.0](http://pharo.org/) reference platform.
+* [Pharo 9.0](http://pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Metrics Included
@@ -23,9 +23,6 @@ In a Playground, _Do it_:
 Metacello new 
   repository: 'github://brackendev/Readability-Pharo:v1.0.0/src';
   baseline: 'Readability';
-  onConflict: [ :ex | ex useIncoming ];
-  onUpgrade: [ :ex | ex useIncoming ];
-  onDowngrade: [ :ex | ex useLoaded ];
   load.
 ```
 
@@ -42,10 +39,6 @@ GTPlayground openUrl: 'http://ws.stfx.eu/N07H5OFUTG00'.
 ```smalltalk
 Readability examples.
 ```
-
-## TODO
-
-- [ ] Support Pharo 9 (when stable)
 
 ## Ports
 
