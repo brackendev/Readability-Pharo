@@ -3,7 +3,7 @@ Readability-Pharo
 
 **Determine readability and comprehension difficulty for contemporary English text.**
 
-* [Pharo 9.0](http://pharo.org/) reference platform.
+* [Pharo 10](http://pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Metrics Included
@@ -28,13 +28,7 @@ Metacello new
 
 ## Example Usage
 
-In a Playground, _Do it_:
-
-```smalltalk
-GTPlayground openUrl: 'http://ws.stfx.eu/N07H5OFUTG00'.
-```
-
-...or _Inspect it_:
+In a Playground, _Inspect it_:
 
 ```smalltalk
 Readability examples.
